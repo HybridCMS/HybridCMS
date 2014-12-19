@@ -1,0 +1,37 @@
+{  
+    "emulator":"phoenix",
+    "fields":{  
+        "account":{  
+            "table":"users",
+            "id":"id",
+            "email":"mail",
+            "pass":"password",
+            "rank":"rank"
+        },
+        "characters":{  
+            "table":"users",
+            "parent":"id",
+            "username":"username",
+            "motto":"motto",
+            "figure":"look",
+            "credits":"credits",
+            "pixels":"activity_points",
+            "timeLastUsed":"last_online",
+            "timeCreated":"account_created"
+        },
+        "articles":{  
+            "table":"cms_news",
+            "id":"id",
+            "title":"title",
+            "author":"author",
+            "image":"image",
+            "summary":"shortstory",
+            "content":"longstory",
+            "category":null,
+            "tags":null
+        },
+        "system":{  
+            "table":""
+        }
+    }
+}

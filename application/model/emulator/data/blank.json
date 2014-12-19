@@ -1,0 +1,37 @@
+{  
+    "emulator":"",
+    "fields":{  
+        "account":{  
+            "table":"",
+            "id":"",
+            "email":"",
+            "pass":"",
+            "rank":""
+        },
+        "characters":{  
+            "table":"",
+            "parent":"",
+            "username":"",
+            "motto":"",
+            "figure":"",
+            "credits":"",
+            "pixels":"",
+            "timeLastUsed":"",
+            "timeCreated":""
+        },
+        "articles":{  
+            "table":"",
+            "id":"",
+            "title":"",
+            "author":"",
+            "image":"",
+            "summary":"",
+            "content":"",
+            "category":"",
+            "tags":""
+        },
+        "system":{  
+            "table":""
+        }
+    }
+}

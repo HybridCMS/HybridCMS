@@ -1,0 +1,17 @@
+{
+	"theme": "Default",
+	"author": "HybridCMS",
+	"version": "1.0.0",
+	
+	"map": {
+		"frontpage": {
+			"css": {
+				"/stylesheet/frontpage.css"
+			},
+			"js": {
+				"/javascript/frontpage.js"
+			},
+			"file": "/frontpage.html"
+		}
+	}
+}
